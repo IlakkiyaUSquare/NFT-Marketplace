@@ -1,0 +1,16 @@
+.button{
+    padding: 12px 40px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: max-content;
+    cursor: pointer;
+}
+.primary-btn{
+    color: var(--white);
+    background-color: var(--btn-bg);
+    text-transform: uppercase;
+}
+.secondary-btn{
+    border:2px solid var(--white)
+}

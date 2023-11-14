@@ -1,0 +1,19 @@
+.trending-card{
+    flex-direction: column;
+}
+.card-wrapper{
+    background: var(--text-gradient-bg );
+    padding: 5px;
+    border-radius: 18px;
+}
+.creator{
+    height: 200px;
+    width: 250px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+.ui-creator{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

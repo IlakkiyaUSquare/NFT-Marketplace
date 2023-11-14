@@ -1,0 +1,46 @@
+.trending-card{
+    flex-direction: column;
+}
+.wrapper{
+    background: var( --text-gradient-1);
+    padding: 2px;
+    border-radius: 18px;
+}
+.tc-banner{
+    height: 200px;
+    width: 250px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+.content{
+    background-color: var(--background);
+    border-radius: 18px;
+    padding: 18px;
+}
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    margin-right: 12px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+.ui-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.ui-userhandle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.ui-username{
+    margin-left: 16px;
+}
